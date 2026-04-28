@@ -5,9 +5,9 @@ Ashkelon Amal Cries In Pain
 SOON
 
 watch
-https://www.youtube.com/watch?v=nA3EeObc8iE
+https://www.youtube.com/watch?v=aJsUPefGfME
 
 listen
-https://open.spotify.com/artist/713SNpxpkOSTVpiWL5qWp4
+https://linktr.ee/LostbyRequiem
 
 © 2026 LostbyRequiem
