@@ -1,74 +1,80 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact | LostbyRequiem</title>
+<title>Connect | LostbyRequiem</title>
 
 <style>
 
-body {
-    margin: 0;
-    color: white;
-    font-family: Arial, sans-serif;
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    color:white;
 
     background:
-      linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
-      url("https://i.imgur.com/fXMoeeQ.jpeg") center/cover fixed;
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)),
+    url("https://i.imgur.com/fXMoeeQ.jpeg");
 
-    min-height: 100vh;
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+
+    min-height:100vh;
 }
 
-.container {
-    max-width: 700px;
-    margin: auto;
-    padding: 60px 20px 120px;
+.container{
+    max-width:700px;
+    margin:auto;
+    padding:60px 20px;
 }
 
-.card {
-    background: rgba(0,0,0,.65);
-    backdrop-filter: blur(6px);
-    border-radius: 10px;
-    padding: 40px;
-    text-align: center;
+.card{
+    background:rgba(0,0,0,0.65);
+    padding:40px;
+    border-radius:10px;
+    text-align:center;
 }
 
-h1 {
-    letter-spacing: 4px;
-    margin-bottom: 30px;
+h1{
+    letter-spacing:3px;
+    margin-bottom:30px;
 }
 
-a {
-    display: block;
-    margin: 12px 0;
-    text-decoration: none;
-    color: white;
-    border: 1px solid #555;
-    padding: 12px;
-    border-radius: 6px;
-    transition: .2s;
+p{
+    color:#bbb;
 }
 
-a:hover {
-    background: #111;
-    color: #9c88ff;
-    border-color: #9c88ff;
+.link-button{
+    display:block;
+    margin:12px 0;
+    padding:12px;
+
+    color:white;
+    text-decoration:none;
+
+    border:1px solid #555;
+    border-radius:6px;
+
+    transition:0.2s;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+.link-button:hover{
+    background:#111;
+    color:#9c88ff;
+    border-color:#9c88ff;
+}
 
-    text-align: center;
-    padding: 15px;
+.back{
+    margin-top:30px;
+}
 
-    background: rgba(0,0,0,.6);
-    backdrop-filter: blur(4px);
-
-    color: #888;
-    font-size: 12px;
+footer{
+    text-align:center;
+    padding:20px;
+    color:#888;
+    font-size:12px;
 }
 
 </style>
@@ -82,31 +88,46 @@ footer {
 
 <h1>CONNECT</h1>
 
-<a href="https://open.spotify.com/artist/713SNpxpkOSTVpiWL5qWp4" target="_blank">
+<p>Find LostbyRequiem across streaming platforms and social media.</p>
+
+<a class="link-button" href="https://open.spotify.com/artist/713SNpxpkOSTVpiWL5qWp4" target="_blank">
 Spotify
 </a>
 
-<a href="https://www.youtube.com/@lostbyrequiem" target="_blank">
+<a class="link-button" href="https://music.apple.com/us/artist/lostbyrequiem/1769518793" target="_blank">
+Apple Music
+</a>
+
+<a class="link-button" href="https://www.youtube.com/@lostbyrequiem" target="_blank">
 YouTube
 </a>
 
-<a href="https://lostbyrequiem.bandcamp.com/" target="_blank">
+<a class="link-button" href="https://www.instagram.com/lostbyrequiem/" target="_blank">
+Instagram
+</a>
+
+<a class="link-button" href="https://music.amazon.com/artists/B0DHKLX2GS/lostbyrequiem" target="_blank">
+Amazon Music
+</a>
+
+<a class="link-button" href="https://lostbyrequiem.bandcamp.com/" target="_blank">
 Bandcamp
 </a>
 
-<a href="https://linktr.ee/LostbyRequiem" target="_blank">
+<a class="link-button" href="https://linktr.ee/LostbyRequiem" target="_blank">
 Linktree
 </a>
 
+<a class="link-button" href="https://soundcloud.com/lost-804950950" target="_blank">
+SoundCloud
+</a>
 
-<a href="lostbyrequiem@gmail.com">
+<a class="link-button" href="mailto:lostbyrequiem@gmail.com">
 Email
 </a>
 
-<br>
-
-<a href="index.html">
-BACK
+<a class="link-button back" href="index.html">
+Return Home
 </a>
 
 </div>
@@ -119,3 +140,4 @@ BACK
 
 </body>
 </html>
+```
